@@ -33,8 +33,12 @@ export default (props) => (
             <p>Sua opinião é de suma importância</p>
 
             <div class="div__login">
-              <ButtonCadLogin title=" Criar Conta"></ButtonCadLogin>
-              <ButtonCadLogin title=" Login"></ButtonCadLogin>
+              <ButtonCadLogin title=" Criar Conta">
+                <a href="#"></a>
+              </ButtonCadLogin>
+              <ButtonCadLogin title=" Login">
+                <a href="#"></a>
+              </ButtonCadLogin>
             </div>
           </div>
         </div>
