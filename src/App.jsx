@@ -1,26 +1,48 @@
-import "./App.css";
+import "./css/style.css";
 import React from "react";
 
-import First from "./components/First";
-// import Parameters from "./components/Parameters";
-// import Sons from "./components/Sons";
-import Card from "./components/layouts/Card";
+import ButtonInformation from "./components/ButtonInformations";
+import ButtonCadLogin from "./components/ButtonCadLog";
+import Imagens from "./components/imagens";
 
 export default (props) => (
   <div>
-    <Card titulo="Primeiro Componente">
-      <First />
-    </Card>
-    <Card titulo="Exercício X">Conteúdo</Card>
-    {/* <Sons>
-        <ul>
-            <li>Ana</li>
-            <li>Bia</li>
-            <li>Neto</li>
-            <li>Vezinha</li>
-        </ul>
-        </Sons> */}
-    {/* <First />
-        <Parameters title="Esse é o título" subtitle="Esse é o SubTítulo" /> */}
+    <header className="menu">
+      <div className="logo">
+        <h1>
+          folha<b>cpa</b>
+        </h1>
+        <p>Pesquisa de Satisfação entre alunos</p>
+      </div>
+    </header>
+    <section class="corpo__apresentation">
+      <div class="corpo__principal">
+        <div class="corpo__principal--up">
+          <Imagens></Imagens>
+
+          <div class="corpo__principal--text">
+            <h3>Bem vindo</h3>
+            <p>
+              A empresa FolhaCPA é uma plataforma para realizar pesquisas de
+              satisfação entre alunos de graduação, pós graduação, mestrado e
+              doutorado
+            </p>
+            <br />
+            <ButtonInformation title="Clique aqui para obter mais informações"></ButtonInformation>
+            <br />
+            <p>Sua opinião é de suma importância</p>
+
+            <div class="div__login">
+              <ButtonCadLogin title=" Criar Conta"></ButtonCadLogin>
+              <ButtonCadLogin title=" Login"></ButtonCadLogin>
+            </div>
+          </div>
+        </div>
+        <p class="corpo__principal--downtext">
+          Que tal começar a responder algumas perguntas? baixe nosso app
+          <a href="#"> clicando aqui</a>
+        </p>
+      </div>
+    </section>
   </div>
 );
