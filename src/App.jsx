@@ -1,9 +1,11 @@
 import "./css/style.css";
 import React from "react";
 
-import ButtonInformation from "./components/ButtonInformations.jsx";
-import ButtonCadLogin from "./components/ButtonCadLog";
-import Imagens from "./components/imagens";
+import {
+  ButtonInformation,
+  ButtonCadLogin,
+  Images 
+} from "./components";
 
 export default (props) => (
   <div>
