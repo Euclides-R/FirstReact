@@ -1,0 +1,147 @@
+/* Globais */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Menu */
+.menu {
+  max-width: 1360px;
+  max-height: 4em;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+/* Logo */
+
+.logo {
+  max-width: 8em;
+  text-align: left;
+}
+
+.logo img {
+  width: 12em;
+}
+
+.logo p {
+  font-size: 10px;
+  margin-top: -4px;
+  padding-left: 10px;
+}
+
+/* corpo */
+
+.corpo__apresentation {
+  max-width: 1360px;
+}
+
+.corpo__principal {
+  padding-top: 30px;
+}
+
+.corpo__principal--up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.corpo__principal--up img {
+  flex: 10%;
+  min-width: 400px;
+}
+
+.corpo__principal--text {
+  margin-left: 15px;
+  flex: 10%;
+  min-width: 400px;
+  align-items: center;
+}
+
+.corpo__principal--text h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.corpo__principal--text p {
+  text-align: justify;
+  color: #939393;
+  font-size: 14px;
+  font-weight: 385;
+  line-height: 1.5em;
+}
+
+.div__login {
+  display: flex;
+}
+
+.corpo__principal--downtext {
+  flex-grow: 1;
+  padding: 20px;
+  color: #171617;
+  font-size: 16px;
+  font-weight: 350;
+  text-align: center;
+}
+
+.corpo__principal--downtext a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #171617;
+}
+
+.corpo__principal--downtext a:hover {
+  font-size: 18px;
+}
+
+/* Buttons */
+.link__information {
+  background: black;
+  padding: 10px;
+  text-align: center;
+  min-height: 3.3em;
+  min-width: 90%;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.link__information a {
+  text-decoration: none;
+  color: #f5f7fb;
+  font-size: 14px;
+}
+
+.link__information a:hover {
+  font-size: 16px;
+}
+
+.button__login {
+  border: 1px solid #939393;
+  border-radius: 5px;
+  margin-right: 25px;
+  min-height: 35px;
+  min-width: 35%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+.button__login a {
+  text-decoration: none;
+  color: #939393;
+  font-size: 14px;
+}
+
+.button__login a:hover {
+  font-size: 16px;
+}
