@@ -35,7 +35,7 @@ export default (props) => (
               doutorado
             </p>
             <br />
-            <ButtonInformation title="Clique aqui para obter mais informações"></ButtonInformation>
+            <ButtonInformation title="Clique aqui para obter mais informações" link={`/link-tal/${variavel}`}></ButtonInformation>
             <br />
             <p>Sua opinião é de suma importância</p>
 
