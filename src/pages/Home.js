@@ -16,7 +16,7 @@ export default function Home() {
             doutorado.
           </p>
 
-          <Link className="info-link" to="/Details.js">
+          <Link className="info-link" to="/details">
             Clique para obter mais informações
           </Link>
 

@@ -19,7 +19,7 @@ export default function Header() {
           Baixe o app
         </Link>
         <img src="/img/plus.svg" />
-        <Link className="navigation-link" to="/sing-in">
+        <Link className="navigation-link" to="/sign-in">
           Cadastre-se
         </Link>
       </nav>
