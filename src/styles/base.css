@@ -4,11 +4,11 @@ body {
 }
 
 body {
+  background-color: var(--white-back);
+  color: var(--gray-text);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 1.4rem;
-  background-color: var(--white-back);
-  color: var(--gray-text);
 }
 
 .container {
