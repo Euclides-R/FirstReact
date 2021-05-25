@@ -1,0 +1,38 @@
+/* Globais */
+body {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 1.4rem;
+  background-color: var(--white-back);
+  color: var(--gray-text);
+}
+
+.container {
+  margin: auto;
+  max-width: 1360px;
+}
+
+:root {
+  --black: #171617;
+  --gray-text: #636363;
+  --orange-theme: #fdba12;
+  --purple-dark: #2c2c51;
+  --white-back: #f5f7fb;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar-track {
+  background-color: var(--gray-text);
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: var(--gray-text);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+}

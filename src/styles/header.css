@@ -1,0 +1,44 @@
+.header-menu {
+  text-align: left;
+  height: 85px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu > .logo > img {
+  display: block;
+  margin: 0;
+  width: 10em;
+}
+
+.header-menu > .logo > p {
+  color: var(--purple-dark);
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.header-menu .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation img {
+  padding-left: 15px;
+}
+
+.navigation-link {
+  color: var(--purple-dark);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  font-weight: bold;
+}

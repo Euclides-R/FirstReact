@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  text-align: center;
+  color: var(--black);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-weight: 300;
+}
+
+.footer-link {
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--orange-theme);
+}
+
+.footer-link:hover {
+  font-weight: bold;
+}
