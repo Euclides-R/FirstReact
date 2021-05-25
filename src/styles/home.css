@@ -24,7 +24,7 @@
 .home-text h3 {
   font-size: 38px;
   font-weight: 390;
-  color: #171617;
+  color: var(--black);
 }
 
 .home-text p {
@@ -35,9 +35,9 @@
 }
 
 .home > .content .info-link {
-  background-color: black;
+  background-color: var(--black);
   border-radius: 5px;
-  color: white;
+  color: var(--white-back);
   display: block;
   font-size: 18px;
   font-weight: 380;
@@ -65,9 +65,9 @@
 
 .sign-in {
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid var(--gray-text);
   border-radius: 5px;
-  color: gray;
+  color: var(--gray-text);
   display: flex;
   font-size: 16px;
   height: 40px;

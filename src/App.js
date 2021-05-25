@@ -8,8 +8,8 @@ export default function App() {
   return (
     <Router>
       <DefaultLayout>
-        <Route exact path="/" component={ Home } />
+        <Route exact path="/" component={Home} />
       </DefaultLayout>
     </Router>
-  )
+  );
 }

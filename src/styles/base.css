@@ -7,8 +7,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 1.4rem;
-  background-color: #f5f7fb;
-  color: #636363;
+  background-color: var(--white-back);
+  color: var(--gray-text);
 }
 
 .container {
@@ -16,15 +16,23 @@ body {
   max-width: 1360px;
 }
 
+:root {
+  --black: #171617;
+  --gray-text: #636363;
+  --orange-theme: #fdba12;
+  --purple-dark: #2c2c51;
+  --white-back: #f5f7fb;
+}
+
 /* Scroll bar */
 
 ::-webkit-scrollbar-track {
-  background-color: #cccccc;
+  background-color: var(--gray-text);
 }
 ::-webkit-scrollbar {
-  width: 4px;
-  background: #8a8a8a;
+  width: 5px;
+  background: var(--gray-text);
 }
 ::-webkit-scrollbar-thumb {
-  background: #8a8a8a;
+  background: var(--black);
 }

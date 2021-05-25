@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   text-align: center;
-  color: #171617;
+  color: var(--black);
   align-items: center;
   justify-content: center;
 }
@@ -13,7 +13,7 @@
 .footer-link {
   font-weight: 400;
   text-decoration: none;
-  color: #fdba12;
+  color: var(--orange-theme);
 }
 
 .footer-link:hover {

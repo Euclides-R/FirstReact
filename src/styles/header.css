@@ -12,12 +12,8 @@
   width: 10em;
 }
 
-.purple-dark {
-  color: var(--my-color, #2c2c51);
-}
-
 .header-menu > .logo > p {
-  color: var(purple-dark);
+  color: var(--purple-dark);
   font-size: 10px;
   font-weight: bold;
   margin: 0;
@@ -36,7 +32,7 @@
 }
 
 .navigation-link {
-  color: #2c2c51;
+  color: var(--purple-dark);
   font-size: 18px;
   font-weight: 400;
   padding: 3px;
