@@ -12,12 +12,12 @@
   width: 10em;
 }
 
-.color-text-header {
+.purple-dark {
   color: var(--my-color, #2c2c51);
 }
 
 .header-menu > .logo > p {
-  color: var(color-text-header);
+  color: var(purple-dark);
   font-size: 10px;
   font-weight: bold;
   margin: 0;

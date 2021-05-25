@@ -12,6 +12,10 @@
   display: flex;
 }
 
+.img-home img {
+  width: 800px;
+}
+
 .home-text {
   padding-left: 100px;
   width: 30%;
@@ -59,7 +63,7 @@
   font-weight: bold;
 }
 
-.sing-in {
+.sign-in {
   align-items: center;
   border: 1px solid gray;
   border-radius: 5px;
