@@ -15,3 +15,16 @@ body {
   margin: auto;
   max-width: 1360px;
 }
+
+/* Scroll bar */
+
+::-webkit-scrollbar-track {
+  background-color: #cccccc;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  background: #8a8a8a;
+}
+::-webkit-scrollbar-thumb {
+  background: #8a8a8a;
+}
