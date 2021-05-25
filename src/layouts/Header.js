@@ -12,14 +12,14 @@ export default function Header() {
       <nav className="navigation">
         <img src="/img/home.png" />
         <Link className="navigation-link" to="/">
-          Home
+          Página inicial
         </Link>
         <img src="/img/smart-phone.png" />
         <Link className="navigation-link" to="/downloadapp">
           Baixe o app
         </Link>
         <img src="/img/plus.svg" />
-        <Link className="navigation-link" to="/cadastro">
+        <Link className="navigation-link" to="/sing-in">
           Cadastre-se
         </Link>
       </nav>
