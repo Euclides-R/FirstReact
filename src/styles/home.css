@@ -52,7 +52,6 @@
 
 .register {
   display: flex;
-  width: 300px;
 }
 
 .register:hover {

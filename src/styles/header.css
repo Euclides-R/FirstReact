@@ -12,8 +12,12 @@
   width: 10em;
 }
 
+.color-text-header {
+  color: var(--my-color, #2c2c51);
+}
+
 .header-menu > .logo > p {
-  color: #2c2c51;
+  color: var(color-text-header);
   font-size: 10px;
   font-weight: bold;
   margin: 0;

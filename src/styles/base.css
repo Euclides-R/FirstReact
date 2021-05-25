@@ -8,11 +8,10 @@ body {
   font-weight: 200;
   font-size: 1.4rem;
   background-color: #f5f7fb;
-  color: #939393;
+  color: #636363;
 }
 
 .container {
-  background-color: #f5f7fb;
   margin: auto;
   max-width: 1360px;
 }
