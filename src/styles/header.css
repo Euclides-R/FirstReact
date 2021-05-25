@@ -1,21 +1,46 @@
 .header-menu {
   text-align: left;
   height: 85px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .header-menu > .logo > img {
   display: block;
-  width: 12em;
+  margin: 0;
+  width: 10em;
 }
 
 .header-menu > .logo > p {
+  color: #2c2c51;
   font-size: 10px;
-  color: black;
   font-weight: bold;
+  margin: 0;
+  padding-right: 5px;
+  text-align: right;
 }
 
 .header-menu .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+}
 
+.navigation img {
+  width: 1.3vw;
+  padding-left: 15px;
+}
+
+.navigation-link {
+  color: #2c2c51;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  font-weight: bold;
 }

@@ -9,14 +9,20 @@ export default function Header() {
         <p>Pesquisa de Satisfação entre alunos</p>
       </div>
 
-      <nav class="navigation">
-        <Link to="/">
+      <nav className="navigation">
+        <img src="/img/home.png" />
+        <Link className="navigation-link" to="/">
           Home
         </Link>
-        <Link to="/cadastro">
-          Cadastro
+        <img src="/img/smart-phone.png" />
+        <Link className="navigation-link" to="/downloadapp">
+          Baixe o app
+        </Link>
+        <img src="/img/plus.svg" />
+        <Link className="navigation-link" to="/cadastro">
+          Cadastre-se
         </Link>
       </nav>
     </header>
-  )
+  );
 }

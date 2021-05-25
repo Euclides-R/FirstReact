@@ -1,10 +1,33 @@
 .home > .content {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.home > .content > .img-home {
   display: flex;
 }
 
-.home > .content > * {
-  padding: 10px;
-  width: 50%;
+.home-text {
+  padding-left: 100px;
+  width: 30%;
+}
+
+.home-text h3 {
+  font-size: 38px;
+  font-weight: 390;
+  color: #171617;
+}
+
+.home-text p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.6em;
+  text-align: justify;
 }
 
 .home > .content .info-link {
@@ -12,9 +35,39 @@
   border-radius: 5px;
   color: white;
   display: block;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 380;
   padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 85%;
+  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.home > .content .info-link:hover {
+  font-weight: bold;
+}
+
+.register {
+  display: flex;
+  width: 300px;
+}
+
+.register:hover {
+  font-weight: bold;
+}
+
+.sing-in {
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: gray;
+  display: flex;
+  font-size: 16px;
+  height: 40px;
+  justify-content: center;
   text-align: center;
   text-decoration: none;
   width: 100%;
