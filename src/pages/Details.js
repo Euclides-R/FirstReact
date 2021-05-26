@@ -92,7 +92,7 @@ export default function Details() {
           </div>
         </div>
         <div className="info-questions">
-          <Link className="home-link link-div" to="/home">
+          <Link className="home-link link-div" to="/">
             ⬅ Página inicial
           </Link>
         </div>
