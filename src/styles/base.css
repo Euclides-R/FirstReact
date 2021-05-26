@@ -16,6 +16,22 @@ body {
   max-width: 1360px;
 }
 
+.link-div {
+  background-color: var(--black);
+  border-radius: 5px;
+  color: var(--white-back);
+  display: block;
+  font-size: 18px;
+  font-weight: 380;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+
+  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
 :root {
   --black: #171617;
   --gray-text: #636363;

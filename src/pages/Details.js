@@ -16,20 +16,40 @@ export default function Details() {
               Avaliação Detratora, entre os valores 7 e 8 como avaliação Neutra
               e entre os valores 9 e 10 como uma avaliação Promotora.
             </p>
-            <div className="info-options">
-              <p>1</p>
-              <p>2</p>
-              <p>3</p>
-              <p>4</p>
-              <p>5</p>
-            </div>
-            <div className="info-options">
-              <p>6</p>
-              <p>7</p>
-              <p>8</p>
-              <p>9</p>
-              <p>10</p>
-            </div>
+            <ul className="info-options">
+              <li>
+                <button>1</button>
+              </li>
+              <li>
+                <button>2</button>
+              </li>
+              <li>
+                <button>3</button>
+              </li>
+              <li>
+                <button>4</button>
+              </li>
+              <li>
+                <button>5</button>
+              </li>
+            </ul>
+            <ul className="info-options">
+              <li>
+                <button>6</button>
+              </li>
+              <li>
+                <button>7</button>
+              </li>
+              <li>
+                <button>8</button>
+              </li>
+              <li>
+                <button>9</button>
+              </li>
+              <li>
+                <button>10</button>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="info-questions">
@@ -41,24 +61,38 @@ export default function Details() {
               1. não sei responser <br />
               2. não se aplica
             </p>
-            <div className="info-options">
-              <p>1</p>
-              <p>2</p>
-              <p>3</p>
-              <p>4</p>
-              <p>5</p>
-            </div>
-            <div className="info-options">
-              <p>Não sei responder</p>
-              <p>Não se aplica</p>
-            </div>
+            <ul className="info-options">
+              <li>
+                <button>1</button>
+              </li>
+              <li>
+                <button>2</button>
+              </li>
+              <li>
+                <button>3</button>
+              </li>
+              <li>
+                <button>4</button>
+              </li>
+              <li>
+                <button>5</button>
+              </li>
+            </ul>
+            <ul className="info-options">
+              <li>
+                <button>Não sei responder</button>
+              </li>
+              <li>
+                <button>Não se aplica</button>
+              </li>
+            </ul>
           </div>
           <div className="img-details">
             <img src="/img/pana.svg" />
           </div>
         </div>
         <div className="info-questions">
-          <Link className="home-link" to="/Home">
+          <Link className="home-link link-div" to="/home">
             ⬅ Página inicial
           </Link>
         </div>

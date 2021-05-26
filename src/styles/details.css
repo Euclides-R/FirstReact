@@ -36,7 +36,7 @@
   width: 65%;
 }
 
-.info-options p {
+.info-options li {
   align-items: center;
   background-color: var(--gray-text);
   border-radius: 5px;
@@ -52,27 +52,20 @@
   box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
 }
 
-.info-options p:hover {
+.info-options button {
+  background: none;
+  border: none;
+  color: var(--white-back);
+}
+
+.info-options li:hover {
   background-color: green;
   color: var(--black);
   transition: 0.2s;
 }
 
 .home-link {
-  background-color: var(--black);
-  border-radius: 5px;
-  color: var(--white-back);
-  display: block;
-  font-size: 18px;
-  font-weight: 380;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
   width: 35%;
-
-  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
-  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
-  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
 }
 
 .home-link:hover {
