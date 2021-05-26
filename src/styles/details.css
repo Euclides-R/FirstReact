@@ -42,14 +42,14 @@
 
 .info-options button {
   align-items: center;
-  align-content: flex-start;
   background-color: var(--gray-text);
   border: none;
   border-radius: 5px;
   color: var(--white-back);
   flex-wrap: wrap;
-  height: 40px;
+  justify-content: center;
   margin: 5px;
+  min-height: 40px;
   min-width: 50px;
 
   -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
