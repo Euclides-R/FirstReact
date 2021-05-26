@@ -37,30 +37,28 @@
 }
 
 .info-options li {
+  list-style-type: none;
+}
+
+.info-options button {
   align-items: center;
+  align-content: flex-start;
   background-color: var(--gray-text);
+  border: none;
   border-radius: 5px;
-  display: flex;
-  flex: 1;
+  color: var(--white-back);
   flex-wrap: wrap;
   height: 40px;
-  justify-content: center;
   margin: 5px;
+  min-width: 50px;
 
   -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
   -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
   box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
 }
 
-.info-options button {
-  background: none;
-  border: none;
-  color: var(--white-back);
-}
-
-.info-options li:hover {
+.info-options button:hover {
   background-color: green;
-  color: var(--black);
   transition: 0.2s;
 }
 

@@ -32,8 +32,6 @@ export default function Details() {
               <li>
                 <button>5</button>
               </li>
-            </ul>
-            <ul className="info-options">
               <li>
                 <button>6</button>
               </li>
@@ -77,8 +75,6 @@ export default function Details() {
               <li>
                 <button>5</button>
               </li>
-            </ul>
-            <ul className="info-options">
               <li>
                 <button>Não sei responder</button>
               </li>
