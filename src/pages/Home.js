@@ -23,7 +23,7 @@ export default function Home() {
           <p>Sua opinião é de suma importância</p>
 
           <div className="register">
-            <Link className="sign-in" to="/">
+            <Link className="sign-in" to="/sign-in">
               Cadastre-se
             </Link>
           </div>
