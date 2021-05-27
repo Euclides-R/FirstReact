@@ -1,0 +1,8 @@
+.singin * {
+  border: 1px solid black;
+}
+
+.singin > .content {
+  align-items: center;
+  justify-content: center;
+}
