@@ -1,8 +1,81 @@
-.singin * {
-  border: 1px solid black;
-}
-
 .singin > .content {
   align-items: center;
   justify-content: center;
+  display: flex;
+}
+
+.content {
+  height: 700px;
+}
+
+.box-orange {
+  align-items: center;
+  background: var(--orange-theme);
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  width: 75%;
+}
+
+.box-black {
+  align-items: center;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  justify-content: center;
+  width: 90%;
+}
+
+.box-black h1 {
+  color: var(--white-back);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.box-black > .img-signin {
+  display: flex;
+  justify-content: center;
+}
+
+.img-signin img {
+  width: 200px;
+}
+
+.form-signin {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+}
+
+.form-signin * {
+  border: 1px solid orange;
+}
+
+.form-box {
+  background: var(--white-back);
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+}
+
+.form-box p {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.form-box input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--gray-text);
+  width: 100%;
+  font-size: 16px;
+}
+
+input:focus {
+  border: none;
 }

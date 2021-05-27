@@ -16,6 +16,10 @@ body {
   max-width: 1360px;
 }
 
+.radius-form {
+  border-radius: 0px 10px;
+}
+
 .link-div {
   background-color: var(--black);
   border-radius: 5px;
@@ -35,7 +39,7 @@ body {
 :root {
   --black: #171617;
   --gray-text: #636363;
-  --orange-theme: #fdba12;
+  --orange-theme: #ffd400;
   --purple-dark: #2c2c51;
   --white-back: #f5f7fb;
 }
