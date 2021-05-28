@@ -43,21 +43,16 @@
 }
 
 .form-signin {
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 85%;
 }
 
-.form-signin * {
-  border: 1px solid orange;
-}
-
 .form-box {
   background: var(--white-back);
   margin: 10px;
-  padding: 15px;
+  padding: 7px;
   width: 300px;
 }
 
@@ -78,4 +73,18 @@
 
 input:focus {
   border: none;
+}
+
+/* Button form */
+
+.button-signin {
+  background: var(--orange-theme);
+  border: none;
+  color: var(--white-back);
+  font-size: 18px;
+  min-height: 50px;
+}
+
+.button-signin:hover {
+  font-weight: bold;
 }

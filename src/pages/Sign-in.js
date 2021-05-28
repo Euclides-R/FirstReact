@@ -16,12 +16,28 @@ export default function SingIn() {
                 <p>Nome:</p>
                 <input
                   type="text"
-                  name="nome"
+                  name="name"
                   placeholder="Digite seu nome"
                 ></input>
               </div>
               <div className="form-box radius-form">
-                <p>Nome:</p>
+                <p>Sobrenome:</p>
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Digite seu sobrenome"
+                ></input>
+              </div>
+              <div className="form-box radius-form">
+                <p>Email:</p>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu email"
+                ></input>
+              </div>
+              <div className="form-box radius-form">
+                <p>Período:</p>
                 <input
                   type="text"
                   name="nome"
@@ -29,37 +45,25 @@ export default function SingIn() {
                 ></input>
               </div>
               <div className="form-box radius-form">
-                <p>Nome:</p>
+                <p>Senha:</p>
                 <input
-                  type="text"
-                  name="nome"
-                  placeholder="Digite seu nome"
+                  type="password"
+                  name="password"
+                  placeholder="Digite sua senha"
                 ></input>
               </div>
               <div className="form-box radius-form">
-                <p>Nome:</p>
+                <p>Mesma senha:</p>
                 <input
-                  type="text"
-                  name="nome"
-                  placeholder="Digite seu nome"
+                  type="password"
+                  name="password"
+                  placeholder="Digite novamente sua senha"
                 ></input>
               </div>
-              <div className="form-box radius-form">
-                <p>Nome:</p>
-                <input
-                  type="text"
-                  name="nome"
-                  placeholder="Digite seu nome"
-                ></input>
-              </div>
-              <div className="form-box radius-form">
-                <p>Nome:</p>
-                <input
-                  type="text"
-                  name="nome"
-                  placeholder="Digite seu nome"
-                ></input>
-              </div>
+
+              <button className="button-signin radius-form form-box">
+                Cadastrar-se
+              </button>
             </form>
           </div>
         </div>
