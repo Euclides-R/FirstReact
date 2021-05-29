@@ -54,7 +54,6 @@
 .sign-in {
   align-items: center;
   border: 1px solid var(--gray-text);
-  border-radius: 5px;
   color: var(--gray-text);
   display: flex;
   font-size: 16px;

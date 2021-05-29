@@ -88,7 +88,7 @@ export default function Details() {
           </div>
         </div>
         <div className="info-questions">
-          <Link className="home-link link-div" to="/">
+          <Link className="home-link link-div radius-form" to="/">
             ⬅ Página inicial
           </Link>
         </div>

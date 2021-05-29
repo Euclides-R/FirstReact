@@ -6,11 +6,11 @@
 }
 
 .details > .content > .info-questions {
-  width: 80%;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  width: 80%;
 }
 
 .img-details img {

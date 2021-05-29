@@ -2,9 +2,6 @@
   align-items: center;
   justify-content: center;
   display: flex;
-}
-
-.content {
   height: 700px;
 }
 

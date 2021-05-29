@@ -23,7 +23,6 @@ body {
 
 .link-div {
   background-color: var(--black);
-  border-radius: 5px;
   color: var(--white-back);
   display: block;
   font-size: 18px;
