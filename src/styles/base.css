@@ -4,16 +4,32 @@ body {
 }
 
 body {
+  background-color: var(--white-back);
+  color: var(--gray-text);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 1.4rem;
-  background-color: var(--white-back);
-  color: var(--gray-text);
 }
 
 .container {
   margin: auto;
   max-width: 1360px;
+}
+
+.link-div {
+  background-color: var(--black);
+  border-radius: 5px;
+  color: var(--white-back);
+  display: block;
+  font-size: 18px;
+  font-weight: 380;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+
+  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
 }
 
 :root {

@@ -1,0 +1,71 @@
+.details > .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details > .content > .info-questions {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-details img {
+  padding: 50px;
+  width: 400px;
+}
+
+.info-questions > .info-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  width: 50%;
+}
+
+.info-questions > .info-text > .info-options {
+  color: var(--white-back);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 10px 0px;
+  text-align: center;
+  width: 65%;
+}
+
+.info-options li {
+  list-style-type: none;
+}
+
+.info-options button {
+  align-items: center;
+  background-color: var(--gray-text);
+  border: none;
+  border-radius: 5px;
+  color: var(--white-back);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  min-height: 40px;
+  min-width: 50px;
+
+  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.info-options button:hover {
+  background-color: green;
+  transition: 0.2s;
+}
+
+.home-link {
+  width: 35%;
+}
+
+.home-link:hover {
+  font-weight: bold;
+}

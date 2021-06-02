@@ -16,14 +16,14 @@ export default function Home() {
             doutorado.
           </p>
 
-          <Link className="info-link" to="/">
+          <Link className="info-link link-div " to="/details">
             Clique para obter mais informações
           </Link>
 
           <p>Sua opinião é de suma importância</p>
 
           <div className="register">
-            <Link className="sign-in" to="/">
+            <Link className="sign-in" to="/sign-in">
               Cadastre-se
             </Link>
           </div>
