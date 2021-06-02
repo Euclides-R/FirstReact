@@ -35,7 +35,9 @@
 }
 
 .home > .content .info-link {
-  width: 85%;
+  font-size: 18px;
+  display: block;
+  text-align: center;
 }
 
 .home > .content .info-link:hover {
@@ -51,15 +53,8 @@
   font-weight: bold;
 }
 
-.sign-in {
-  align-items: center;
-  border: 1px solid var(--gray-text);
-  color: var(--gray-text);
-  display: flex;
-  font-size: 16px;
-  height: 40px;
-  justify-content: center;
+.sign-up {
+  font: 14px;
   text-align: center;
-  text-decoration: none;
-  flex: 1;
+  width: 100%;
 }

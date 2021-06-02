@@ -38,34 +38,15 @@
 
 .info-options li {
   list-style-type: none;
+  padding: 5px;
 }
 
 .info-options button {
-  align-items: center;
-  background-color: var(--gray-text);
-  border: none;
-  border-radius: 5px;
-  color: var(--white-back);
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 5px;
-  min-height: 40px;
+  height: 40px;
   min-width: 50px;
-
-  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
-  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
-  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
 }
 
-.info-options button:hover {
-  background-color: green;
-  transition: 0.2s;
-}
-
-.home-link {
+.info-questions .home-link {
+  text-align: center;
   width: 35%;
-}
-
-.home-link:hover {
-  font-weight: bold;
 }

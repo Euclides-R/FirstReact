@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Button } from '../components';
 
 export default function Details() {
   return (
@@ -18,34 +18,34 @@ export default function Details() {
             </p>
             <ul className="info-options">
               <li>
-                <button>1</button>
+                <Button>1</Button>
               </li>
               <li>
-                <button>2</button>
+                <Button>2</Button>
               </li>
               <li>
-                <button>3</button>
+                <Button>3</Button>
               </li>
               <li>
-                <button>4</button>
+                <Button>4</Button>
               </li>
               <li>
-                <button>5</button>
+                <Button>5</Button>
               </li>
               <li>
-                <button>6</button>
+                <Button>6</Button>
               </li>
               <li>
-                <button>7</button>
+                <Button>7</Button>
               </li>
               <li>
-                <button>8</button>
+                <Button>8</Button>
               </li>
               <li>
-                <button>9</button>
+                <Button>9</Button>
               </li>
               <li>
-                <button>10</button>
+                <Button>10</Button>
               </li>
             </ul>
           </div>
@@ -61,25 +61,25 @@ export default function Details() {
             </p>
             <ul className="info-options">
               <li>
-                <button>1</button>
+                <Button>1</Button>
               </li>
               <li>
-                <button>2</button>
+                <Button>2</Button>
               </li>
               <li>
-                <button>3</button>
+                <Button>3</Button>
               </li>
               <li>
-                <button>4</button>
+                <Button>4</Button>
               </li>
               <li>
-                <button>5</button>
+                <Button>5</Button>
               </li>
               <li>
-                <button>Não sei responder</button>
+                <Button>Não sei responder</Button>
               </li>
               <li>
-                <button>Não se aplica</button>
+                <Button>Não se aplica</Button>
               </li>
             </ul>
           </div>
@@ -88,9 +88,9 @@ export default function Details() {
           </div>
         </div>
         <div className="info-questions">
-          <Link className="home-link link-div radius-form" to="/">
+          <Button className="home-link radius-form" kind="secondary" url="/">
             ⬅ Página inicial
-          </Link>
+          </Button>
         </div>
       </div>
     </div>

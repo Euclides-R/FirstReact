@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-export default function SingIn() {
+export default function SingUp() {
   return (
     <div className="singin">
       <div className="content">
@@ -53,7 +52,7 @@ export default function SingIn() {
                 ></input>
               </div>
               <div className="form-box radius-form">
-                <p>Mesma senha:</p>
+                <p>Repetir senha:</p>
                 <input
                   type="password"
                   name="password"

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "module": "es2020",
+    "lib": ["dom", "es2020"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strictNullChecks": true
+  },
+  "include": ["./src"]
+}

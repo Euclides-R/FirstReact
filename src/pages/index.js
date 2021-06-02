@@ -1,3 +1,3 @@
 export { default as Home } from './Home';
 export { default as Details } from './Details';
-export { default as SingIn } from './Sign-in';
+export { default as SingUp } from './SignUp';
