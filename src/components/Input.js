@@ -14,3 +14,11 @@ export default function Input({
         </input>
     )  
 }
+
+Input.propTypes = {
+  type: PropTypes.string,
+};
+
+Input.defaultProps = {
+  type: 'text',
+}
