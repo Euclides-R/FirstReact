@@ -1,68 +1,63 @@
 import React from 'react';
+import { Button, Input } from '../components';
 
 export default function SingUp() {
   return (
-    <div className="singin">
+    <div className="singup">
       <div className="content">
         <div className="box-orange radius-form">
           <div className="box-black radius-form">
-            <div className="img-signin">
+            <div className="img-signup">
               <img src="/img/logo-cpa.png" />
             </div>
             <h1>Cadastre-se</h1>
-            <form className="form-signin">
+            <form className="form-signup">
               <div className="form-box radius-form">
                 <p>Nome:</p>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Digite seu nome"
-                ></input>
+                <Input
+                  typeInput="text"
+                  placeHolder="Digite seu nome"
+                ></Input>
               </div>
               <div className="form-box radius-form">
                 <p>Sobrenome:</p>
-                <input
-                  type="text"
-                  name="lastname"
-                  placeholder="Digite seu sobrenome"
-                ></input>
+                <Input
+                  typeInput="text"
+                  placeHolder="Digite seu sobrenome"
+                ></Input>
               </div>
               <div className="form-box radius-form">
                 <p>Email:</p>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Digite seu email"
-                ></input>
+                <Input
+                  typeInput="email"
+                  placeHolder="Digite seu email"
+                ></Input>
               </div>
               <div className="form-box radius-form">
                 <p>Período:</p>
-                <input
-                  type="text"
-                  name="nome"
-                  placeholder="Digite seu nome"
-                ></input>
+                <Input
+                  typeInput="text"
+                  placeHolder="Digite seu nome"
+                ></Input>
               </div>
               <div className="form-box radius-form">
                 <p>Senha:</p>
-                <input
-                  type="password"
-                  name="password"
-                  placeholder="Digite sua senha"
-                ></input>
+                <Input
+                  typeInput="password"
+                  placeHolder="Digite sua senha"
+                ></Input>
               </div>
               <div className="form-box radius-form">
                 <p>Repetir senha:</p>
-                <input
-                  type="password"
-                  name="password"
-                  placeholder="Digite novamente sua senha"
-                ></input>
+                <Input
+                  typeInput="password"
+                  placeHolder="Digite novamente sua senha"
+                ></Input>
               </div>
 
-              <button className="button-signin radius-form form-box">
+              <Button className="radius-form form-box" kind="tertiary">
                 Cadastrar-se
-              </button>
+              </Button>
             </form>
           </div>
         </div>

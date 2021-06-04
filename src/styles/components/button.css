@@ -35,6 +35,17 @@
   font-weight: 400;
 }
 
+.btn.btn-tertiary {
+  background-color: var(--orange-theme);
+  box-shadow: none;
+  color: var(--white-back);
+  font-size: 18px;
+}
+
+.btn.btn-tertiary:hover {
+  font-weight: bold;
+}
+
 .btn.btn-ghost {
   background: transparent;
   border: 1px solid var(--gray-text);
