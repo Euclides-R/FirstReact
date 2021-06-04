@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { Home, Details, SingIn, SingUp } from './pages';
+import { Home, Details, SingUp } from './pages';
 import { DefaultLayout } from './layouts';
 
 export default function App() {
