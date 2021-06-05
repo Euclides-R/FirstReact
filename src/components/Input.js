@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Input({ 
-    typeInput, 
+    type, 
     placeHolder
 }) {
     return (
         <input 
         className="insert--registration"
-        type={typeInput}
+        type={type}
         placeholder={placeHolder}
         >
         </input>

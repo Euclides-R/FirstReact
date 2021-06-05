@@ -7,8 +7,3 @@
     outline: none;
     width: 100%;
 }
-
-.insert--registration:focus {
-    font-size: 16.5px;
-    transition: .1s;
-}

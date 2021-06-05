@@ -60,3 +60,14 @@
   margin: 0;
 }
 
+.btn-cad {
+  background-color: var(--orange-theme) !important;
+  box-shadow: none;
+  color: var(--white-back);
+  font-size: 18px;
+}
+
+.btn-cad:hover {
+  font-weight: bold !important;
+}
+
