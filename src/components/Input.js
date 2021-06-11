@@ -10,8 +10,7 @@ export default function Input({
         className="insert--registration"
         type={type}
         placeholder={placeHolder}
-        >
-        </input>
+        />
     )  
 }
 
