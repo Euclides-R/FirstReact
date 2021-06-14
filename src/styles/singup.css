@@ -1,0 +1,72 @@
+.singup > .content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 700px;
+}
+
+.box-orange {
+  align-items: center;
+  background: var(--orange-theme);
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  width: 75%;
+}
+
+.box-black {
+  align-items: center;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  justify-content: center;
+  width: 90%;
+}
+
+.box-black h1 {
+  color: var(--white-back);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.box-black > .img-signin {
+  display: flex;
+  justify-content: center;
+}
+
+.img-signup img {
+  width: 200px;
+}
+
+.form-signup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+}
+
+.form-box {
+  background: var(--white-back);
+  margin: 10px;
+  padding: 7px;
+  width: 320px;
+}
+
+.form-box p {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-cad {
+  background-color: var(--orange-theme) !important;
+  box-shadow: none;
+  color: var(--white-back);
+  font-size: 18px;
+}
+
+.btn-cad:hover {
+  font-weight: bold !important;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Button } from '../components';
 
 export default function Home() {
   return (
@@ -16,16 +16,16 @@ export default function Home() {
             doutorado.
           </p>
 
-          <Link className="info-link link-div " to="/details">
+          <Button className="info-link radius-form" kind="secondary" url="/details">
             Clique para obter mais informações
-          </Link>
+          </Button>
 
           <p>Sua opinião é de suma importância</p>
 
           <div className="register">
-            <Link className="sign-in" to="/sign-in">
+            <Button className="sign-up radius-form" kind="ghost" url="/sign-up">
               Cadastre-se
-            </Link>
+            </Button>
           </div>
         </div>
       </div>

@@ -8,7 +8,6 @@ body {
   color: var(--gray-text);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  font-size: 1.4rem;
 }
 
 .container {
@@ -16,28 +15,20 @@ body {
   max-width: 1360px;
 }
 
-.link-div {
-  background-color: var(--black);
-  border-radius: 5px;
-  color: var(--white-back);
-  display: block;
-  font-size: 18px;
-  font-weight: 380;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-
-  -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
-  -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
-  box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+.radius-form {
+  border-radius: 0px 10px;
 }
 
 :root {
   --black: #171617;
   --gray-text: #636363;
-  --orange-theme: #fdba12;
+  --orange-theme: #ffd400;
   --purple-dark: #2c2c51;
   --white-back: #f5f7fb;
+}
+
+.text-bold {
+  font-weight: 380;
 }
 
 /* Scroll bar */
