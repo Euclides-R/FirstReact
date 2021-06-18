@@ -1,0 +1,13 @@
+.downapp * {
+    border: 1px solid red;
+    color: var(--white-back);;
+}
+
+.downapp {
+    padding-top: 50px
+}
+
+.down-link {
+    margin-left: 20px;
+    font-size: 32px;
+}

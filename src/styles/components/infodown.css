@@ -1,0 +1,29 @@
+.info-down {
+    margin: 20px;
+    padding: 10px;
+
+    -webkit-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 3px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.info-down.info-down-primary {
+    background-color: #fe388a;
+    width: 450px !important;
+}
+
+.info-down.info-down-secondary {
+    background-color: #fb5607;
+    width: 350px !important;
+}
+
+.info-down h1 {
+    border-bottom: 4px solid var(--white-back);
+    margin: 0;
+    padding: 10px;
+}
+
+.info-down p {
+    margin: 0;
+    padding: 10px;
+}
